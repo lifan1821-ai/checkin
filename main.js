@@ -9,7 +9,7 @@ const glados = async () => {
         'referer': 'https://glados.space/console/checkin',
         'user-agent': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)',
       }
-      const action = await fetch('https://glados.cloud/api/user/checkin', {
+      const action = await fetch('https://glados.space/console/checkin', {
         method: 'POST',
         headers: { ...common, 'content-type': 'application/json' },
         body: '{"token":"glados.cloud"}',
